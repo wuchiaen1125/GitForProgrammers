@@ -28,6 +28,7 @@ int main(){
         std::cout << Fib(a) << std::endl;
     }
     std::cout << std::endl << Fib(18) << std::endl;
+    return 0;
 }
 /* 費氏數列recursion
 int Fib(int);
