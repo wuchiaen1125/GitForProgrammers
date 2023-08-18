@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F67A780C2A8F6CA5004ADFBA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67A780B2A8F6CA5004ADFBA /* main.cpp */; };
 		F6CA7A582A8DCAE2006A6973 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6CA7A572A8DCAE2006A6973 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F67A78072A8F6CA5004ADFBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F6CA7A522A8DCAE2006A6973 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F67A78092A8F6CA5004ADFBA /* Fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fibonacci; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67A780B2A8F6CA5004ADFBA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6CA7A542A8DCAE2006A6973 /* GitForProgrammers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitForProgrammers; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CA7A572A8DCAE2006A6973 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F67A78062A8F6CA5004ADFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6CA7A512A8DCAE2006A6973 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F67A780A2A8F6CA5004ADFBA /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				F67A780B2A8F6CA5004ADFBA /* main.cpp */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		F6CA7A4B2A8DCAE2006A6973 = {
 			isa = PBXGroup;
 			children = (
 				F6CA7A562A8DCAE2006A6973 /* GitForProgrammers */,
+				F67A780A2A8F6CA5004ADFBA /* Fibonacci */,
 				F6CA7A552A8DCAE2006A6973 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F6CA7A542A8DCAE2006A6973 /* GitForProgrammers */,
+				F67A78092A8F6CA5004ADFBA /* Fibonacci */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +94,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F67A78082A8F6CA5004ADFBA /* Fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67A780F2A8F6CA5004ADFBA /* Build configuration list for PBXNativeTarget "Fibonacci" */;
+			buildPhases = (
+				F67A78052A8F6CA5004ADFBA /* Sources */,
+				F67A78062A8F6CA5004ADFBA /* Frameworks */,
+				F67A78072A8F6CA5004ADFBA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fibonacci;
+			productName = Fibonacci;
+			productReference = F67A78092A8F6CA5004ADFBA /* Fibonacci */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6CA7A532A8DCAE2006A6973 /* GitForProgrammers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6CA7A5B2A8DCAE2006A6973 /* Build configuration list for PBXNativeTarget "GitForProgrammers" */;
@@ -91,6 +137,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					F67A78082A8F6CA5004ADFBA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					F6CA7A532A8DCAE2006A6973 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -110,11 +159,20 @@
 			projectRoot = "";
 			targets = (
 				F6CA7A532A8DCAE2006A6973 /* GitForProgrammers */,
+				F67A78082A8F6CA5004ADFBA /* Fibonacci */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F67A78052A8F6CA5004ADFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67A780C2A8F6CA5004ADFBA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6CA7A502A8DCAE2006A6973 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +184,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F67A780D2A8F6CA5004ADFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F67A780E2A8F6CA5004ADFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6CA7A592A8DCAE2006A6973 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,6 +328,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F67A780F2A8F6CA5004ADFBA /* Build configuration list for PBXNativeTarget "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67A780D2A8F6CA5004ADFBA /* Debug */,
+				F67A780E2A8F6CA5004ADFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F6CA7A4F2A8DCAE2006A6973 /* Build configuration list for PBXProject "GitForProgrammers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
