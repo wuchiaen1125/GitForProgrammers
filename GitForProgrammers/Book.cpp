@@ -11,7 +11,7 @@ class Book{
     std::string getTitle (){
         return Title;
     }
-
+    
     void printPubDate(){
         std::cout << "The Book is published on " 
         << pubDay << "/"
