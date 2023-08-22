@@ -11,7 +11,13 @@ class Book{
     std::string getTitle (){
         return Title;
     }
-    
+    void setPubDay (int day){
+        if (day > 0 && day <= 31) pubDay = day;
+        else {
+            std::cout << "invalid, so day is set 01" << std::endl;
+            pubDay = 1;
+        }
+    }
     void printPubDate(){
         std::cout << "The Book is published on " 
         << pubDay << "/"
