@@ -13,5 +13,8 @@ int main(int argc, const char * argv[]) {
     std::cout << "this line is added (in /Users/wuchiaen/Documents/Desktop/GitForProgrammers) to show the staging area" << std::endl;
     std::cout << "\n\nwriting a new line to make the current \"main\" have one more commit than the original \"main\" which is used as the base for branch \"Book\" \n" 
     << "this is to do the command \"rebase\" 如果沒有rebase，在合併branch into main時會自動多產生一個commit \"Merge branch \'...\'\"" << std::endl; 
+    std::cout << "noticing commit 17 is ahead of 19. 17 was after 19 in the first place, after rebasing a new commit id is given, so it becomes ahead of 19\n" 
+    << "also noticing that after merge there is no Git-generating commit\n"
+    << "also commit 18 (pulling the new main to branch) is omitted " << std::endl;
     return 0;
 }
